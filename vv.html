@@ -72,10 +72,10 @@
        
 <h1>CSS Alapok</h1>
   
-  <p> inline style, a kovezkezo div-nek a kek betuszint allitottunk be
+  <p> 1. inline style, a kovezkezo div-nek a kek betuszint allitottunk be
     </p>
 <div style="color: blue;">ez a szoveg kek</div>  
-  <p>. ez is egy inline style, csak tobb css property-t adtunk meg </p>
+  <p>2. ez is egy inline style, csak tobb css property-t adtunk meg </p>
       <div style="background-color: #0061ff;
       height: 300px;
       text-align: center;
@@ -104,11 +104,6 @@
     height: 300px;
     }
   
-  
-  
-  
-  
-  
    <div style="background-color: #4d0b4f; 
                height: 300px; 
                text-align: center; 
@@ -130,8 +125,31 @@
     
 
     
-</style>     
-      
+</style> 
+     <div class="doboz sarga-doboz">Ez itt egy sarga doboz</div>   
+      <div class="doboz zold-doboz">Ez itt egy zold doboz</div>  
+       <div id="specialis-doboz" class="doboz">Ez egy specialis doboz</div> 
+       
+<style>
+    .doboz {
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        margin: 20px;
+        color: white;
+    }
+    .sarga-doboz {
+        background-color: yellow;
+    }
+    .zold-doboz {
+        background-color: green;
+    }
+    #specialis-doboz {
+        background-color: black;
+        border: 10px solid green;
+    }
+    </style>
+        
  
 </body>
 </html>
